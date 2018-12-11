@@ -1,6 +1,8 @@
 //I spent over 5 hours figuring out just how to build a snowman and get the background to change. I tried adding snow but then it just covered
 //the snowman and background color. I have multiple versions of this and I could not get some functions to work. Basically the gist of this project
-//is to allow users to create a simple holiday greeting that change messages and background colors on click, and the snowman itself could be altered.
+//is to allow users to create a simple holiday greeting that changes messages and background colors on click, and the snowman itself could be altered.
+//The reference library does not have functions for changing colored backgrounds on click so I had to figure it our myself, which in itself took a long while.
+//I do wish it had more going on, orignially I wanted snow to fall then clear and on mouseclick build a snowman but that did not succeed.
 let bgColor;//defining the background color
 //change colors on mouse click
 function setup () {
