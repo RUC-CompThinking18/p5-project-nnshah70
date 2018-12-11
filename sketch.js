@@ -36,7 +36,7 @@ function draw () { //this function is drawing a snowman figure
   text('Make Yourself a Holiday Greeting Card', 30, 500);//can change the spacing as well as what text you want in order to make it interative and user friendly
 }
 
-**************************************************************************************
+//**************************************************************************************
 //Second idea which on key code clicks can in two parts build a snowman. Starts with a blank screen then click to reveal
 //snowman graphic
 var x = 0;
