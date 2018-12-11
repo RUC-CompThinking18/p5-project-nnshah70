@@ -35,3 +35,47 @@ function draw () { //this function is drawing a snowman figure
 	fill(55);//can also change the color of the text
   text('Make Yourself a Holiday Greeting Card', 30, 500);//can change the spacing as well as what text you want in order to make it interative and user friendly
 }
+
+**************************************************************************************
+//Second idea which on key code clicks can in two parts build a snowman. Starts with a blank screen then click to reveal
+//snowman graphic
+var x = 0;
+function setup() {
+  createCanvas(600, 525);
+	fill (240)
+background ('green');
+  noStroke();
+	noLoop();
+}
+function mousePressed() {
+  if (mouseIsPressed) {
+		background ('Teal')
+  	fill  (255, 255, 255);
+  	ellipse(300, 400, 240, 240);
+  	ellipse(300, 240, 150, 150);
+  	ellipse(300, 120, 100, 100);
+} else {
+    fill(255);
+  }
+  	ellipse(mouseX, mouseY, 0, 0);
+  	ellipse(mouseX, mouseY, 0,0);
+  	ellipse(mouseX, mouseY, 0,0);
+}
+function keyPressed() {
+	if (keyCode == UP_ARROW) {
+		fill  (22, 22, 22);
+  	ellipse(300, 110, 15, 15);
+  	ellipse(330, 110, 15, 15);
+ 		fill(255, 188, 20);
+  	triangle(310, 127, 310, 135, 370, 123);
+		fill  (22, 22, 22);
+  	ellipse(310, 140, 5, 5);
+  	ellipse(320, 140, 5, 5);
+		ellipse(300, 140, 5, 5);
+  	ellipse(330, 140, 5, 5);
+} else {
+    fill(0);
+  }
+  ellipse(mouseX, mouseY, 0, 0);
+}
+
