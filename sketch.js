@@ -27,10 +27,10 @@ function draw () { //this function is drawing a snowman figure
  	fill(255, 188, 20);//for the nose which is orange
   triangle(310, 127, 310, 135, 370, 123);
 	fill  (22, 22, 22);//for the mouth which is black
-  ellipse(310, 140, 5, 5);
-  ellipse(320, 140, 5, 5);
+  	ellipse(310, 145, 5, 5);
+  	ellipse(320, 145, 5, 5);
 	ellipse(300, 140, 5, 5);
-  ellipse(330, 140, 5, 5);
+  	ellipse(330, 140, 5, 5);
 	textSize(32);//you can change the text size
 	fill(55);//can also change the color of the text
   text('Make Yourself a Holiday Greeting Card', 30, 500);//can change the spacing as well as what text you want in order to make it interative and user friendly
@@ -69,9 +69,9 @@ function keyPressed() {
  		fill(255, 188, 20);
   	triangle(310, 127, 310, 135, 370, 123);
 		fill  (22, 22, 22);
-  	ellipse(310, 140, 5, 5);
-  	ellipse(320, 140, 5, 5);
-		ellipse(300, 140, 5, 5);
+  	ellipse(310, 145, 5, 5);
+  	ellipse(320, 145, 5, 5);
+	ellipse(300, 140, 5, 5);
   	ellipse(330, 140, 5, 5);
 } else {
     fill(0);
